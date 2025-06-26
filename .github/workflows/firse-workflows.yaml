@@ -1,0 +1,10 @@
+name: Work Flows
+on: push
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: test job welcome message
+              run: echo "executing the test job..."
+            - name: readme file contenet
+              run: cat README.md  
