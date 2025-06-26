@@ -7,6 +7,7 @@ jobs:
             - name: checkout repository
               uses: actions/checkout@v4 
             - name: test job welcome message
-              run: echo "executing the test job..." 
+              run: |
+                   echo "executing the test job..." 
                    cat README.md  
              
